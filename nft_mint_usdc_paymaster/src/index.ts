@@ -93,9 +93,10 @@ async function mintNFT() {
       );
 
       let paymasterServiceData = {
-        mode: PaymasterMode.ERC20,
-        feeTokenAddress: usdcFeeQuotes.tokenAddress,
-      };
+    mode: PaymasterMode.ERC20,
+    feeTokenAddress: usdcFeeQuotes.tokenAddress,
+    calculateGasLimits: true, // Always recommended and especially when using token paymaster
+};
 
       try{
         const paymasterAndDataWithLimits =
