@@ -2,7 +2,7 @@
 
 Now you have the smart contract accounts setup and are familiarised with some components of the SDK. In this step, we will create a basic Node.js script [TypeScript] which allows users to mint an NFT without paying gas fee using the Biconomy SDK.
 
-All the dev testing will be done on the Polygon Mumbai Network. The address for the contract is `0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789`.
+All the dev testing will be done on the Polygon Mumbai Network. The address for the contract is `0x1758f42Af7026fBbB559Dc60EcE0De3ef81f665e`.
 
 ## Prerequisites
 
