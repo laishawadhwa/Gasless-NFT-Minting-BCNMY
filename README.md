@@ -24,3 +24,12 @@ Next, we'll set up our node js script to create a smart account.
 NOTE: This script is a starter code for setting up the biconomy SDK and **setting up our Smart contract account for gasless minting. and minting NFT by paying gas fees in USDC.** After running this script using ```npm run dev```, you will see :
         1. The owner of the smart account which is the address associated to your private key, 
         2. And the address of your smart account.
+
+There are 3 different modules in this repo:
+1. setup_guide - you can also use this for setting up the environment and creating a smart contract account
+2. gasless_transaction_mint_nft - Use this to do your first gasless transaction and mint an NFT 
+3. nft_mint_usdc_paymaster - Use this module to mint your NFT by paying gas in ERC-20 token for minting an NFT
+
+Setup instructions for each module is present in the individual subfolders
+
+
