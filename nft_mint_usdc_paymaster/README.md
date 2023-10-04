@@ -18,9 +18,13 @@ Let's now update our paymaster to pay gas fees in USDC
    ```bash
    PRIVATE_KEY="your-private-key"
    ```
-3. Replace YOUR_BUNDLER_URL and YOUR_PAYMASTER_URL with the actual URLs from your Biconomy account.
+   
+3. Replace YOUR_BUNDLER_URL and YOUR_PAYMASTER_URL with the actual URLs from your [Biconomy account dashboard](dashboard.biconomy.io/).
 
-4. Run the script
+4. Load your wallet with the USDC token we are going to use. Contrat address for the USDC token: 0xda5289fcaaf71d52a80a254da614a192b693e977
+You can swap test MATIC tokens with test USDC tokens on [quickswap](https://app.uniswap.org/swap) 
+
+5. Run the script
     ```bash
    npm run dev 
    ``` 
